@@ -21,7 +21,7 @@ build.mk - create links and build directories, call gExec.ln.mk
 
 - Set executable name
   
-```export TARGET.NAME :=```
+  ```export TARGET.NAME :=```
   
 - Set flags
 
