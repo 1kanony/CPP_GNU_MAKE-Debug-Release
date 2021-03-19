@@ -9,8 +9,7 @@ For example:
 
 ## How it works?
 
-To track changes of header files we need to create depend files. For example:
-file.d:
+To track changes of header files we need to create depend files. For example we have file.d:
 
 ​	```file.o: file.cpp header_file1.h header_file2.h```
 
