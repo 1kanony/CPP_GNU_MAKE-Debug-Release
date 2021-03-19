@@ -20,8 +20,9 @@ But main problem is **makefile**, if *object* files and *makefile* are not in sa
 build.mk - create links and build directories, call gExec.ln.mk
 
 - Set executable name
-  ```export TARGET.NAME :=```
-
+  
+```export TARGET.NAME :=```
+  
 - Set flags
 
   ```CXXFLAGS.ADDITION.DEBUG := -O0 -g3```
