@@ -32,6 +32,7 @@ build.mk - create links and build directories, call gExec.ln.mk
   ```export CXXFLAGS :=``` for example:  ```-std=c++11```
 
   *BUILDMODE=debug* ->   ```CXXFLAGS += CXXFLAGS.ADDITION.DEBUG```
+
   *BUILDMODE=release* -> ```CXXFLAGS += CXXFLAGS.ADDITION.RELEASE```
 
 - Set path for source (*.cpp) files 
