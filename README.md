@@ -11,7 +11,8 @@ For example:
 
 To track changes of header files we need to create depend files. For example:
 file.d:
-	```file.o: file.cpp header_file1.h header_file2.h```
+
+​	```file.o: file.cpp header_file1.h header_file2.h```
 
 But main problem is **makefile**, if *object* files and *makefile* are not in same directory then *depend* files won't work. I come up with creating soft links of ```gExec.mk```, maybe there is better solution but it works well.
 
