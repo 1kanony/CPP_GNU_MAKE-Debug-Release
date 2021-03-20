@@ -21,7 +21,7 @@ export CXXFLAGS :=
 export CPPFLAGS := -D PATH=\"$(shell pwd)/../\"
 export LDLIBS   := 
  
-export SOURCES.DIR := $(MAINDIR)/path/to/source/folder/
+export SOURCES.DIR := $(MAINDIR)/path/to/source/folder
 export SOURCES.NAME := $(wildcard $(SOURCES.DIR)/*.cpp)
 export DEPENDS.NAME := $(patsubst $(SOURCES.DIR)/%.cpp, %.d, $(SOURCES.NAME))
 export OBJECTS.NAME := $(patsubst $(SOURCES.DIR)/%.cpp, %.o, $(SOURCES.NAME))
@@ -55,7 +55,7 @@ $(BUILDDIR.NAME):
 	mkdir -p $@
 
 $(EXECLN):
-	ln -s $(MAINDIR)/gExec.mk $@
+	ln -s $(MAINDIR)/build/gExec.mk $@
 
 remove:
 	-$(RM) $(BUILDDIR.NAME) $(DEPENDSDIR.NAME)
