@@ -29,7 +29,7 @@ build.mk - create links and build directories, call gExec.ln.mk
 
   ```CXXFLAGS.ADDITION.RELEASE := -O3 -DNDEBUG```
 
-  ```export CXXFLAGS :=``` for example:  ```-std=c++11```
+  ```export CXXFLAGS :=```contains common flags of *debug* and *release*, for example:  ```-std=c++11```
 
   *BUILDMODE=debug* ->   ```CXXFLAGS += CXXFLAGS.ADDITION.DEBUG```
 
