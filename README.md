@@ -37,7 +37,7 @@ build.mk - create links and build directories, call gExec.ln.mk
 
 - Set path for source (*.cpp) files 
 
-  ```export SOURCES.DIR := $(MAINDIR)/path/to/source/files/directory/```
+  ```export SOURCES.DIR := $(MAINDIR)/path/to/source/files/directory```
 
   ```MAINDIR``` is parent directory of build
 
