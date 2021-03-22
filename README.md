@@ -12,7 +12,7 @@ You have to build this from same directory where is **build.mk**.
 You can't write:
     ```$ make -f build/build.mk BUILDMODE=debug build```
 
-Because in **build.mk** `$(CURDIR)` is used and if you are not in same directory `$(CURDIR)` would not be where **build.mk** file is.
+Because in **build.mk** `$(CURDIR)` is used and if you are not in same directory the value of `$(CURDIR)` would not be **build.mk** file's full path.
 
 
 ## How it works?
