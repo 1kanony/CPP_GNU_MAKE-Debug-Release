@@ -52,5 +52,5 @@ build.mk - create links and build directories, call gExec.ln.mk
 
   ```export LDLIBS := ```
 
-gExec.mk - creates *.d, *.o and executable file
+gExec.mk - creates *.d, *.o and executable files
 
